@@ -15,4 +15,8 @@ public abstract class Figure {
 
     public Double getDegrees() { return degrees; }
     public void setDegrees(Double degrees) { this.degrees = degrees; }
+
+    static final public void main(String... args) {
+        System.out.print("paint");
+    }
 }
